@@ -7,3 +7,44 @@ Set up of the tools
 # unzip terraform_1.4.6_linux_amd64.zip
 # mv terraform /usr/local/bin
 # terraform
+
+2. Set up AWS User and its security credentials
+
+Create an IAM user and create accesskey and secret key
+
+In search box give IAM --> select IAM service
+
+On left side click on USers and then click on ADD users
+
+Give user name = terraform --> press next
+
+Select Add exsiiting permission --> select Administrator accesss--> press next --> click on Create User
+
+Add credentials to the USER in AWS
+=====================================================
+
+Click on the user name terraform --> click on Security credentials --> scroll down to Access Key --> click on Create Access key
+
+Select Command Line Interface (CLI) --> scroll down and check the box for I understand the above recommendation and want to proceed to create an access key.
+
+Press next and click on create access key
+
+Copy the access key and secret key
+
+Accesskey : AKIAUJU24ZR3T63H6KDG
+Secret key : 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
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
