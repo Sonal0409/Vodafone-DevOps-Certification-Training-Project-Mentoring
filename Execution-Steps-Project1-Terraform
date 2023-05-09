@@ -34,6 +34,18 @@ Copy the access key and secret key
 Accesskey : AKIAUJU24ZR3T63H6KDG
 Secret key : 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
 
+3. Create KeyPiars in AWS
+=============================================================
+In search box --> give key pairs --> click on keypairs under features
+
+Click on create key pair --> give name as project1
+
+Key pair type ---> ED25519
+
+Private key file format --> .pem
+
+Click on Create key pair
+
 
 
 
