@@ -124,7 +124,11 @@ network_interface_id = aws_instance.web1.primary_network_interface_id
 }
 
 
+Execute command
 
+# terrafrom apply
+
+Enter yes
 
 
 
