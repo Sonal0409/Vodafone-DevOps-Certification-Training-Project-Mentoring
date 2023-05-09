@@ -46,6 +46,35 @@ Private key file format --> .pem
 
 Click on Create key pair
 
+4. Write terraform script to Connect to AWS
+=========================================================
+# mkdir myproject1
+# cd myproject1
+# vim terraformproject.tf
+
+provider "aws" {
+ region     = "us-east-1"
+ access_key = "AKIAUJU24ZR3T63H6KDG"
+ secret_key = "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"
+
+}
+
+save the file
+
+Execute the command.
+
+# terraform init
+
+
+
+
+
+
+
+
+
+
+
 
 
 
